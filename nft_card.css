@@ -1,0 +1,125 @@
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  height: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Card */
+.parent-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 360px;
+  width: 300px;
+  margin-top: 15%;  
+  margin-bottom: auto;
+  padding: 18px;
+  padding-bottom: 3%;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 17px;
+}
+
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.cube {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cube::after {
+    content: url(./images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items:     center;
+    opacity: 0;
+    transition: all 0.30s ease;
+}
+
+.cube:hover::after { opacity: 0.8; }
+
+    .cube img {
+      display: block;
+    }
+
+h2 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+p {
+  padding: 10px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.eth, .time-left {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.time-left {
+  float: right;
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+}
+
+.avatar img {
+  width: 40px;
+  margin-top: 10px;
+  margin-right: 13px;
+  float: left;
+  border: solid #FFF;
+  border-radius: 30px;
+}
+
+.creation {
+  margin-top: 10px;
+  margin-left: 3px;
+  font-size: medium;
+  color: hsl(215, 51%, 70%);
+  padding: 10px;
+}
+
+span {
+  color: hsl(0, 0%, 100%);;
+}
+
+/* Attribution */
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

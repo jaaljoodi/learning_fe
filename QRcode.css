@@ -1,0 +1,67 @@
+body {
+  background-color: #C5DCF1;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Card */
+.parent-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  max-width: 360px;
+  margin-top: 20px;  
+  margin-bottom: auto;
+  padding: 18px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 17px;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Text */
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+/* H2 */
+.title {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+/* P */
+.second {
+  color: #999999;
+  text-align: justify center;
+}
+
+/* Footer */
+.attribution { 
+  margin-top: 50px;
+  font-size: 11px; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
